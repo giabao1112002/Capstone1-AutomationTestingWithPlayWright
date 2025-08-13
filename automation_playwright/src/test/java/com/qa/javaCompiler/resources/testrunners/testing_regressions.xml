@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRM_PIM_0.1.1.1_Add new user and verify it present">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="AdminTests">
+        <classes>
+            <class name="com.qa.orangeHRM.tests.PIMPageTest"/>
+            <class name="com.qa.orangeHRM.tests.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
